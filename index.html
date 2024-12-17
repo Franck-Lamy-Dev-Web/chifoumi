@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chifoumi</title>
+</head>
+<body>
+    <div id="contenerChifoumi">
+        <img src="/ChifoumiImage.jpg" alt="image chifoumi" id="imageChifoumi">
+        <h1 id="jeuChifoumi">Jeu Chifoumi</h1>
+        <p>On joue en 5 rounds</p>
+    
+        <h2> Cliquez pour choisir</h2>
+        <div class="buttons">
+            <button onclick="playGame('Pierre')"><img src="/pierre.jpg" alt="pierre" class="imagejeu" title="Pierre">Pierre</button>
+            <button onclick="playGame('Feuille')" title="Feuille"><img src="/feuille.jpg" alt="feuille" class="imagejeu">Feuille</button>
+            <button onclick="playGame('Ciseaux')"><img src="/ciseaux.jpg" alt="ciseaux" class="imagejeu" title="Ciseaux">Ciseaux</button>
+        </div>
+        <p id="result"></p>
+        <p id="score">Score - Joueur: 0, Ordinateur: 0</p>
+        <p id="resultFin"></p>
+
+
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+</html>

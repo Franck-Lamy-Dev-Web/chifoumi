@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#contenerChifoumi {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#imageChifoumi {
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 7rem;
+    height: 7rem;
+    border: 2px solid #ddd;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.imagejeu {
+    width: 3rem;
+    display: block;
+    margin: 0 auto 0.5rem;
+}
+
+.reset {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.reset:hover {
+    background-color: #ff4c4c;
+}
+
+
+@media screen and (max-width: 600px) {
+    button {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    
+
+    
+}
